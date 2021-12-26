@@ -12,8 +12,17 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <style>
+        .bg-hijau{
+       background-color:#00f7b5
+    }
+    
+       .fc-hijau{
+           color:#34eba1
+       }
 
-        
+  </style>
+   
         @livewireStyles
 
         <!-- Scripts -->
@@ -22,8 +31,8 @@
     <body class="font-sans antialiased">
         <x-jet-banner />
 
-        <div class="min-h-screen bg-gray-100">
-            @livewire('navigation-menu')
+        <div class="min-h-screen bg-hijau">
+            
 
             <!-- Page Heading -->
             @if (isset($header))
