@@ -8,7 +8,7 @@
                     <a href="{{ route('dashboard') }}">
                         <x-jet-application-mark class="block h-9 w-auto" />
                     </a>
-                </div> 
+                </div>
             </div>
 
             <div class="shrink-0 flex flex-row-reverse items-center">
@@ -17,7 +17,7 @@
                 <div class="px-4">Register</div>
                 <div class="px-4"><a href="/login">Login</a></div>
             </div>
-           
+
             <!-- Hamburger -->
             <div class="-mr-2 flex items-center sm:hidden">
                 <button @click="open = ! open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition">
@@ -38,6 +38,6 @@
             </x-jet-responsive-nav-link>
         </div>
 
-      
+
     </div>
 </nav>

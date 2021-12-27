@@ -13,7 +13,7 @@
 
             <div class="shrink-0 flex flex-row-reverse items-center">
 
-                <div class="px-4"><a href="/register">Register</div>
+
                 <div class="px-4"><a href="/login">Login</a></div>
             </div>
 

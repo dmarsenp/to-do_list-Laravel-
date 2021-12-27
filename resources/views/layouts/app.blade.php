@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -12,17 +13,19 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
+
         <style>
         .bg-hijau{
        background-color:#00f7b5
     }
-    
+
        .fc-hijau{
            color:#34eba1
        }
 
   </style>
-   
+
         @livewireStyles
 
         <!-- Scripts -->
@@ -32,7 +35,7 @@
         <x-jet-banner />
 
         <div class="min-h-screen bg-hijau">
-            
+
 
             <!-- Page Heading -->
             @if (isset($header))

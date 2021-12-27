@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Welcome;
 use App\Http\Livewire\Login;
+use App\Http\Livewire\Register;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,7 @@ use App\Http\Livewire\Login;
 
 Route::get('/', Welcome::class);
 Route::get('/login', Login::class);
+Route::get('/register', Register::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
